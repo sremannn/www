@@ -2,42 +2,24 @@
 @import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&display=swap');
 
 body{
-    background-color: black;
+    background-color: white;
     scroll-behavior: smooth;
     line-height: 13px;
     text-align: center;
     align-items: center;
 }
 
-.Pin img {
-    margin: center;
-    height: 24px;
-    width: 24px;
-    margin-left: center;
-    align-items: center;
-}
-
-.Sup img {
-    margin: center;
-    height: 350px;
-    width: 350px;
-    border-radius: 3%;
-    border:3px solid;
-    margin-left: center;
-    align-items: center;
-}
-
 h1{
-    color: white;
+    color: black;
     text-align: center;
-    font-size: 18px;
+    font-size: 20px;
     font-family: "Major Mono Display", monospace;
     font-style: normal;
     font-weight: 100;
 }
 
 p{
-    color: white;
+    color: black;
     text-align: center;
     font-size: 16px;
     font-family: "JetBrains Mono", monospace;
@@ -45,10 +27,35 @@ p{
     font-weight: 100;
 }
 
+.social img{
+    margin: center;
+	height: 24px;
+	width: 24px;
+    margin-left: center;
+	align-items: center;
+}
+
+.bottom-img {
+    position: absolute;
+    margin:20px;
+    bottom: 1px;
+    right: 0px;
+    height: -102px;
+    width: -14px;
+}
+
+.Pin img {
+	margin: center;
+	height: 20px;
+	width: 20px;
+    margin-left: center;
+	align-items: center;
+}
+
 a{
-    color: white;
-    text-decoration: none;
+    color: black;
     font-family: "JetBrains Mono", monospace;
+    text-decoration: none;
     font-style: normal;
     font-weight: 100;
 }
