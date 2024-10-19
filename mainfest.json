@@ -1,0 +1,43 @@
+{
+    "short_name": "sreeman",
+    "name": "sreeman",
+    "icons": [
+      {
+        "src": "./img/logo.png",
+        "type": "image/svg+xml",
+        "sizes": "512x512"
+      },
+      {
+        "src": "./img/logo.png",
+        "type": "image/png",
+        "sizes": "192x192"
+      },
+      {
+        "src": "./img/logo.png",
+        "type": "image/png",
+        "sizes": "512x512"
+      }
+    ],
+    "id": "/?source=pwa",
+    "start_url": "/?source=pwa",
+    "background_color": "#002069, #d9f1f8",
+    "display": "standalone",
+    "scope": "/",
+    "theme_color": "#d9f1f8",
+    "shortcuts": [
+      {
+        "name": "sreeman",
+        "short_name": "sreeman",
+        "description": "Dev",
+        "url": "/today?source=pwa",
+        "icons": [{ "src": "./img/logo.png", "sizes": "192x192" }]
+      },
+      {
+        "name": "sreeman",
+        "short_name": "sreeman",
+        "description": "Dev",
+        "url": "/tomorrow?source=pwa",
+        "icons": [{ "src": "./img/logo.png", "sizes": "192x192" }]
+      }
+    ]
+  }
