@@ -32,9 +32,9 @@ p{
 
 .pic img{
 	display: block;
-	margin: auto;
-	height: 150px;
-	width: 150px;
+	margin: left;
+	height: 130px;
+	width: 130px;
 	margin-top: 20px;
 	align-items: left;
 	border-radius: 10%;
